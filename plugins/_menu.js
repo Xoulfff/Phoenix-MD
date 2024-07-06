@@ -73,7 +73,7 @@ Description : ${i.desc}\`\`\``
 
       menu += ``;
       return await message.client.sendMessage(message.jid, {
-        image: { url: `https://i.imgur.com/CoAcgTb.jpeg` },
+        image: { url: `https://graph.org/file/ccf8b9745467ad85e4e7d.jpg` },
         caption: tiny(menu),
         footer: tiny(
           `Phoenix-MD\nVersion : ${require("../package.json").version}`
